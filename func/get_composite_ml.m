@@ -1,4 +1,3 @@
-
 function [] = get_composite_ml(rawData, rppath, vp_selection, patches, npic, outFileName, conCodes)
  
 n           = 0 ;                     % Stored or entered by user.

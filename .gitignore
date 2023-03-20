@@ -65,6 +65,10 @@ octave-workspace
 # Simulink autosave extension
 .autosave
 
+# slorm
+*.err
+*.out
+
 # data folders
 # see https://stackoverflow.com/questions/115983/how-do-i-add-an-empty-directory-to-a-git-repository
 # add a special .gitignore file to data folders

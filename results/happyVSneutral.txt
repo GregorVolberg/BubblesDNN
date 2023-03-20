@@ -1,0 +1,400 @@
+Epoch 1/100
+----------
+train loss: 0.5724, acc: 0.7029
+test loss: 0.5274, acc: 0.7400
+Epoch 2/100
+----------
+train loss: 0.5214, acc: 0.7414
+test loss: 0.5075, acc: 0.7530
+Epoch 3/100
+----------
+train loss: 0.5040, acc: 0.7528
+test loss: 0.4963, acc: 0.7573
+Epoch 4/100
+----------
+train loss: 0.4970, acc: 0.7554
+test loss: 0.4933, acc: 0.7593
+Epoch 5/100
+----------
+train loss: 0.4916, acc: 0.7589
+test loss: 0.5000, acc: 0.7548
+Epoch 6/100
+----------
+train loss: 0.4880, acc: 0.7629
+test loss: 0.4935, acc: 0.7571
+Epoch 7/100
+----------
+train loss: 0.4865, acc: 0.7622
+test loss: 0.4890, acc: 0.7615
+Epoch 8/100
+----------
+train loss: 0.4871, acc: 0.7624
+test loss: 0.4903, acc: 0.7600
+Epoch 9/100
+----------
+train loss: 0.4841, acc: 0.7647
+test loss: 0.5030, acc: 0.7539
+Epoch 10/100
+----------
+train loss: 0.4856, acc: 0.7631
+test loss: 0.4908, acc: 0.7583
+Epoch 11/100
+----------
+train loss: 0.4824, acc: 0.7652
+test loss: 0.4927, acc: 0.7565
+Epoch 12/100
+----------
+train loss: 0.4819, acc: 0.7661
+test loss: 0.4884, acc: 0.7607
+Epoch 13/100
+----------
+train loss: 0.4831, acc: 0.7648
+test loss: 0.4888, acc: 0.7629
+Epoch 14/100
+----------
+train loss: 0.4838, acc: 0.7651
+test loss: 0.4890, acc: 0.7615
+Epoch 15/100
+----------
+train loss: 0.4824, acc: 0.7654
+test loss: 0.4908, acc: 0.7605
+Epoch 16/100
+----------
+train loss: 0.4816, acc: 0.7678
+test loss: 0.4923, acc: 0.7588
+Epoch 17/100
+----------
+train loss: 0.4832, acc: 0.7650
+test loss: 0.4890, acc: 0.7615
+Epoch 18/100
+----------
+train loss: 0.4821, acc: 0.7651
+test loss: 0.4947, acc: 0.7563
+Epoch 19/100
+----------
+train loss: 0.4802, acc: 0.7679
+test loss: 0.4906, acc: 0.7591
+Epoch 20/100
+----------
+train loss: 0.4801, acc: 0.7649
+test loss: 0.4986, acc: 0.7553
+Epoch 21/100
+----------
+train loss: 0.4812, acc: 0.7669
+test loss: 0.4918, acc: 0.7606
+Epoch 22/100
+----------
+train loss: 0.4830, acc: 0.7663
+test loss: 0.4913, acc: 0.7597
+Epoch 23/100
+----------
+train loss: 0.4812, acc: 0.7660
+test loss: 0.4912, acc: 0.7619
+Epoch 24/100
+----------
+train loss: 0.4826, acc: 0.7663
+test loss: 0.4969, acc: 0.7556
+Epoch 25/100
+----------
+train loss: 0.4836, acc: 0.7672
+test loss: 0.4917, acc: 0.7603
+Epoch 26/100
+----------
+train loss: 0.4805, acc: 0.7683
+test loss: 0.4956, acc: 0.7566
+Epoch 27/100
+----------
+train loss: 0.4828, acc: 0.7674
+test loss: 0.4920, acc: 0.7625
+Epoch 28/100
+----------
+train loss: 0.4831, acc: 0.7651
+test loss: 0.4912, acc: 0.7590
+Epoch 29/100
+----------
+train loss: 0.4804, acc: 0.7670
+test loss: 0.4908, acc: 0.7632
+Epoch 30/100
+----------
+train loss: 0.4830, acc: 0.7667
+test loss: 0.4889, acc: 0.7613
+Epoch 31/100
+----------
+train loss: 0.4827, acc: 0.7664
+test loss: 0.4876, acc: 0.7637
+Epoch 32/100
+----------
+train loss: 0.4816, acc: 0.7670
+test loss: 0.4907, acc: 0.7613
+Epoch 33/100
+----------
+train loss: 0.4816, acc: 0.7663
+test loss: 0.4920, acc: 0.7620
+Epoch 34/100
+----------
+train loss: 0.4810, acc: 0.7684
+test loss: 0.4941, acc: 0.7593
+Epoch 35/100
+----------
+train loss: 0.4816, acc: 0.7668
+test loss: 0.5187, acc: 0.7486
+Epoch 36/100
+----------
+train loss: 0.4838, acc: 0.7660
+test loss: 0.4920, acc: 0.7596
+Epoch 37/100
+----------
+train loss: 0.4800, acc: 0.7674
+test loss: 0.4934, acc: 0.7585
+Epoch 38/100
+----------
+train loss: 0.4824, acc: 0.7662
+test loss: 0.4898, acc: 0.7631
+Epoch 39/100
+----------
+train loss: 0.4823, acc: 0.7660
+test loss: 0.4959, acc: 0.7572
+Epoch 40/100
+----------
+train loss: 0.4796, acc: 0.7665
+test loss: 0.5051, acc: 0.7557
+Epoch 41/100
+----------
+train loss: 0.4833, acc: 0.7677
+test loss: 0.4908, acc: 0.7595
+Epoch 42/100
+----------
+train loss: 0.4805, acc: 0.7649
+test loss: 0.5045, acc: 0.7562
+Epoch 43/100
+----------
+train loss: 0.4831, acc: 0.7670
+test loss: 0.4908, acc: 0.7599
+Epoch 44/100
+----------
+train loss: 0.4827, acc: 0.7660
+test loss: 0.4976, acc: 0.7570
+Epoch 45/100
+----------
+train loss: 0.4827, acc: 0.7650
+test loss: 0.4955, acc: 0.7581
+Epoch 46/100
+----------
+train loss: 0.4811, acc: 0.7662
+test loss: 0.5007, acc: 0.7528
+Epoch 47/100
+----------
+train loss: 0.4846, acc: 0.7646
+test loss: 0.4940, acc: 0.7581
+Epoch 48/100
+----------
+train loss: 0.4818, acc: 0.7679
+test loss: 0.5053, acc: 0.7573
+Epoch 49/100
+----------
+train loss: 0.4834, acc: 0.7678
+test loss: 0.4909, acc: 0.7598
+Epoch 50/100
+----------
+train loss: 0.4815, acc: 0.7675
+test loss: 0.4962, acc: 0.7568
+Epoch 51/100
+----------
+train loss: 0.4819, acc: 0.7660
+test loss: 0.4914, acc: 0.7622
+Epoch 52/100
+----------
+train loss: 0.4839, acc: 0.7647
+test loss: 0.4937, acc: 0.7591
+Epoch 53/100
+----------
+train loss: 0.4804, acc: 0.7685
+test loss: 0.5129, acc: 0.7521
+Epoch 54/100
+----------
+train loss: 0.4820, acc: 0.7665
+test loss: 0.4937, acc: 0.7589
+Epoch 55/100
+----------
+train loss: 0.4789, acc: 0.7707
+test loss: 0.4955, acc: 0.7604
+Epoch 56/100
+----------
+train loss: 0.4803, acc: 0.7685
+test loss: 0.4964, acc: 0.7611
+Epoch 57/100
+----------
+train loss: 0.4826, acc: 0.7658
+test loss: 0.4941, acc: 0.7571
+Epoch 58/100
+----------
+train loss: 0.4820, acc: 0.7667
+test loss: 0.4926, acc: 0.7593
+Epoch 59/100
+----------
+train loss: 0.4838, acc: 0.7644
+test loss: 0.4906, acc: 0.7618
+Epoch 60/100
+----------
+train loss: 0.4841, acc: 0.7657
+test loss: 0.4940, acc: 0.7599
+Epoch 61/100
+----------
+train loss: 0.4805, acc: 0.7690
+test loss: 0.4981, acc: 0.7538
+Epoch 62/100
+----------
+train loss: 0.4820, acc: 0.7640
+test loss: 0.4903, acc: 0.7615
+Epoch 63/100
+----------
+train loss: 0.4820, acc: 0.7669
+test loss: 0.4889, acc: 0.7611
+Epoch 64/100
+----------
+train loss: 0.4810, acc: 0.7672
+test loss: 0.4915, acc: 0.7587
+Epoch 65/100
+----------
+train loss: 0.4813, acc: 0.7648
+test loss: 0.5056, acc: 0.7554
+Epoch 66/100
+----------
+train loss: 0.4808, acc: 0.7675
+test loss: 0.5219, acc: 0.7408
+Epoch 67/100
+----------
+train loss: 0.4828, acc: 0.7665
+test loss: 0.4964, acc: 0.7578
+Epoch 68/100
+----------
+train loss: 0.4822, acc: 0.7665
+test loss: 0.4936, acc: 0.7595
+Epoch 69/100
+----------
+train loss: 0.4821, acc: 0.7659
+test loss: 0.4934, acc: 0.7611
+Epoch 70/100
+----------
+train loss: 0.4843, acc: 0.7640
+test loss: 0.4907, acc: 0.7621
+Epoch 71/100
+----------
+train loss: 0.4809, acc: 0.7672
+test loss: 0.4994, acc: 0.7574
+Epoch 72/100
+----------
+train loss: 0.4809, acc: 0.7654
+test loss: 0.4925, acc: 0.7606
+Epoch 73/100
+----------
+train loss: 0.4815, acc: 0.7670
+test loss: 0.4910, acc: 0.7593
+Epoch 74/100
+----------
+train loss: 0.4828, acc: 0.7644
+test loss: 0.4896, acc: 0.7623
+Epoch 75/100
+----------
+train loss: 0.4824, acc: 0.7685
+test loss: 0.5049, acc: 0.7504
+Epoch 76/100
+----------
+train loss: 0.4807, acc: 0.7659
+test loss: 0.5030, acc: 0.7523
+Epoch 77/100
+----------
+train loss: 0.4801, acc: 0.7677
+test loss: 0.4904, acc: 0.7608
+Epoch 78/100
+----------
+train loss: 0.4817, acc: 0.7651
+test loss: 0.4935, acc: 0.7613
+Epoch 79/100
+----------
+train loss: 0.4826, acc: 0.7673
+test loss: 0.4948, acc: 0.7600
+Epoch 80/100
+----------
+train loss: 0.4822, acc: 0.7663
+test loss: 0.4948, acc: 0.7583
+Epoch 81/100
+----------
+train loss: 0.4810, acc: 0.7666
+test loss: 0.4925, acc: 0.7589
+Epoch 82/100
+----------
+train loss: 0.4829, acc: 0.7677
+test loss: 0.5006, acc: 0.7556
+Epoch 83/100
+----------
+train loss: 0.4832, acc: 0.7654
+test loss: 0.4984, acc: 0.7583
+Epoch 84/100
+----------
+train loss: 0.4818, acc: 0.7679
+test loss: 0.4929, acc: 0.7590
+Epoch 85/100
+----------
+train loss: 0.4823, acc: 0.7663
+test loss: 0.4904, acc: 0.7597
+Epoch 86/100
+----------
+train loss: 0.4830, acc: 0.7656
+test loss: 0.5111, acc: 0.7503
+Epoch 87/100
+----------
+train loss: 0.4813, acc: 0.7671
+test loss: 0.4937, acc: 0.7588
+Epoch 88/100
+----------
+train loss: 0.4837, acc: 0.7662
+test loss: 0.4919, acc: 0.7611
+Epoch 89/100
+----------
+train loss: 0.4819, acc: 0.7654
+test loss: 0.4944, acc: 0.7595
+Epoch 90/100
+----------
+train loss: 0.4816, acc: 0.7662
+test loss: 0.4908, acc: 0.7618
+Epoch 91/100
+----------
+train loss: 0.4815, acc: 0.7652
+test loss: 0.4958, acc: 0.7579
+Epoch 92/100
+----------
+train loss: 0.4831, acc: 0.7645
+test loss: 0.4912, acc: 0.7611
+Epoch 93/100
+----------
+train loss: 0.4807, acc: 0.7676
+test loss: 0.4916, acc: 0.7609
+Epoch 94/100
+----------
+train loss: 0.4805, acc: 0.7683
+test loss: 0.4942, acc: 0.7588
+Epoch 95/100
+----------
+train loss: 0.4795, acc: 0.7679
+test loss: 0.4944, acc: 0.7584
+Epoch 96/100
+----------
+train loss: 0.4818, acc: 0.7680
+test loss: 0.4909, acc: 0.7617
+Epoch 97/100
+----------
+train loss: 0.4819, acc: 0.7682
+test loss: 0.4954, acc: 0.7578
+Epoch 98/100
+----------
+train loss: 0.4819, acc: 0.7674
+test loss: 0.4901, acc: 0.7616
+Epoch 99/100
+----------
+train loss: 0.4797, acc: 0.7675
+test loss: 0.4926, acc: 0.7598
+Epoch 100/100
+----------
+train loss: 0.4828, acc: 0.7656
+test loss: 0.4971, acc: 0.7602
