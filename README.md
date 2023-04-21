@@ -22,7 +22,13 @@ with subfolders for each condition, as well as a log file
 with filenames, participant names, condition number, group, original trial number and number of Bubbles in that trial.
 
 ## Analysis
-
+ToDo:
+- run model with z- transformed image: (correct - mean (incorrect)) / sd(incorrect)
+- mask image face area?
+- multi-level classifaction (class hierarchy)
+- finetune classification, e. g. further hidden layer before fc-layer [OK, 2023-03-20 with 46 Ekman& Friesen Action units]
+- LRP
+- models with random 1/2 selection of groups members, then predict (cross-validate) other half of participants on trained models control vs experimental
 
 
 ## Results
