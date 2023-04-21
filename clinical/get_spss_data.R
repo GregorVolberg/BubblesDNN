@@ -1,8 +1,7 @@
 library(tidyverse)
 library(haven)
 
-## run from directory [/loctmp2/data/vog20246/BubblesDNN/clinical] 
-## or X:/BubblesDNN/clinical'
+## run from directory [/loctmp2/data/vog20246/BubblesDNN/clinical] ## or setwd('X:/BubblesDNN/clinical')
 protocolFile  <- '../img/dsetComposite/BubblesProtocolComposite2.txt'
 spssFile      <- './Bubbles_SPSSDatei_30.03.2023.sav'
 
@@ -16,4 +15,5 @@ vplist <- read.csv(protocolFile, sep = '\t', header = F) %>%
 spss  <- read_sav(spssFile, encoding = 'latin1') %>%
   select(vp=VPNummer, age=Alter, groupSPSS=Kontrollgruppe_vs_NSSI, iq=IQPunkte, hand=`HÃ¤ndigkeit`)
 
-vplist$vp
+joined = left_join(vplist, spss, by = 'vp')
+
