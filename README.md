@@ -21,7 +21,16 @@ with subfolders for each condition, as well as a log file
 
 with filenames, participant names, condition number, group, original trial number and number of Bubbles in that trial.
 
+Update: Not necessary any more to sort images into subfolders. *py-files for model training and test select images from the BubblesProtocol-File.
+
 ## Analysis
+### For 2023 Poster (May 2023)
+- control and NSSI group were split into test and training set (i.e., test and training individuals) and image classifier was trained on emotion classification (happy vs neutral; sad vs neutral)
+- py-file ./ResNet50_training_twoGroups_crossVal.py produces four models, res50_happyCorrectVShappyNeutralCorrect_2G_control.h5; res50_happyCorrectVShappyNeutralCorrect_2G_experimental.h5; res50_sadCorrectVSsadNeutralCorrect_2G_control.h5; res50_sadCorrectVSsadNeutralCorrect_2G_experimental.h5
+- py-files ResNet50_predictionG2_crossvalidation.py uses the four models for predicition (validation). All Images that were not used for training are included. Writes results to './results/probs_for_G2_crossvalidation.csv'
+- py-file ResNet50_prediction_sad__LRP_stats_perVP.py takes all images "sad" and "sad neutral" with correct responses, per subject, and computes the relevance. Files are saved as './results/Sxxx.ime.csv' for raw relevance,  './results/Sxxx.imze.csv' for z-scored relevance,  './results/Sxxx.imzp.csv' for relevance proportion.
+- m-file ./persubject_LRPs.m reads csv-files, averages across participants and plots
+
 ToDo:
 - run model with z- transformed image: (correct - mean (incorrect)) / sd(incorrect)
 - mask image face area?
