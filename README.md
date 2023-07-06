@@ -28,12 +28,13 @@ Update: Not necessary any more to sort images into subfolders. *py-files for mod
 - control and NSSI group were split into test and training set (i.e., test and training individuals) and image classifier was trained on emotion classification (happy vs neutral; sad vs neutral)
 - py-file ./ResNet50_training_twoGroups_crossVal.py produces four models, res50_happyCorrectVShappyNeutralCorrect_2G_control.h5; res50_happyCorrectVShappyNeutralCorrect_2G_experimental.h5; res50_sadCorrectVSsadNeutralCorrect_2G_control.h5; res50_sadCorrectVSsadNeutralCorrect_2G_experimental.h5
 - py-files ResNet50_predictionG2_crossvalidation.py uses the four models for predicition (validation). All Images that were not used for training are included. Writes results to './results/probs_for_G2_crossvalidation.csv'
-- py-file ResNet50_prediction_sad__LRP_stats_perVP.py takes all images "sad" and "sad neutral" with correct responses, per subject, and computes the relevance. Files are saved as './results/Sxxx-ime.csv' for raw relevance,  '*imze.csv' for z-scored relevance,  '*impe.csv' for relevance proportion in the NSSI (experimental) model and analogously 'imc.csv', 'imzc.csv', 'impc.csv'  for the control group model.
+- py-file ResNet50_prediction_sad__LRP_stats_perVP.py takes all images "sad" and "sad neutral" with correct responses, per subject in the validation subset, and computes the relevance. Files are saved as './results/Sxxx-ime.csv' for raw relevance,  '*imze.csv' for z-scored relevance,  '*impe.csv' for relevance proportion in the NSSI (experimental) model and analogously 'imc.csv', 'imzc.csv', 'impc.csv'  for the control group model.
 - m-file ./persubject_LRPs.m reads csv-files, averages across participants and plots
 
-ToDo:
-- smooth
-- export per subject
+### For correlations with clinical data
+- Problem: One common model for all control and, respectively, NSSI subjects. Relevance scores per participant simply depend on what stimuli the participants had seen, which is random. [Is this correct? It is on the *correct response* data, which is not random]. Also, which model do we use for individual prediction, control or experimental??
+- Idea: make one model per subject, on half of the stimuli; use model and other half  of the stimuli for relevance propagation
+- Idea 2: 
 
 ## Results
 
