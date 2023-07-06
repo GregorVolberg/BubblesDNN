@@ -34,7 +34,8 @@ Update: Not necessary any more to sort images into subfolders. *py-files for mod
 ### For correlations with clinical data
 - Problem: One common model for all control and, respectively, NSSI subjects. Relevance scores per participant simply depend on what stimuli the participants had seen, which is random. [Is this correct? It is on the *correct response* data, which is not random]. Also, which model do we use for individual prediction, control or experimental??
 - Idea: make one model per subject, on half of the stimuli; use model and other half  of the stimuli for relevance propagation
-- Idea 2: 
+- Idea 2: smoothen und z-Scores exportieren aus classification images.
+- Idea 3: regresson per pixel??
 
 ## Results
 
