@@ -32,13 +32,8 @@ Update: Not necessary any more to sort images into subfolders. *py-files for mod
 - m-file ./persubject_LRPs.m reads csv-files, averages across participants and plots
 
 ToDo:
-- run model with z- transformed image: (correct - mean (incorrect)) / sd(incorrect)
-- mask image face area?
-- multi-level classifaction (class hierarchy)
-- finetune classification, e. g. further hidden layer before fc-layer [OK, 2023-03-20 with 46 Ekman& Friesen Action units]
-- LRP
-- models with random 1/2 selection of groups members, then predict (cross-validate) other half of participants on trained models control vs experimental
-
+- smooth
+- export per subject
 
 ## Results
 
