@@ -15,4 +15,4 @@ source ~/.bashrc
 source /usr/local/anaconda3/etc/profile.d/conda.sh
 # /usr/local/anaconda3/envs/pytorch/bin/python ResNet50_trainingSplit_happyPvsC.py > happyPvsC.txt
 conda activate pytorch
-python ResNet50_prediction_sad__LRP.py
+python ResNet50_training_perSubject.py
